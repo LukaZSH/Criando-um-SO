@@ -9,3 +9,8 @@ Neste repositório será documentado todo o passo a passo da criação de um SO 
 <h4> :x: Problemas atuais :x: </h4>
 Nos sistemas Windows, especificamente no Windows 10 e 11, quando tenta executar o Fergo Raw, acontece um erro de dependência do Windows necessitando do arquivo "MSCOMCTL.OCX", porém mesmo baixando o arquivo manualmente e direcionando-o para uma pasta na raíz do Windows 10 e reiniciando o computador, o Fergo Raw continua dando erro de dependência.
 Aparentemente, no Windows 7 o Fergo Raw executa normalmente sem erro de dependência, posteriormente irei testar em uma Máquina Virtual e dar proseguimento no projeto através do Windows 7 na VM.
+
+<h2>Atualização sobre o Fergo RawImage Maker</h2>
+Após ter feito o Download do arquivo "MSCOMCTL.OCX", movi o arquivo para a pasta C:\Windows\SysWOW64 e executei 2 comandos no CMD como administrador na pasta da DLL, "regsvr32 mscomctl.ocx" e "regsvr32 C:\Windows\SysWOW64\comdlg32.ocx", após ter feito esse passo a passo, o Fergo RawImage Maker executou normalmente!! 
+
+
