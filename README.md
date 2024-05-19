@@ -1,4 +1,4 @@
-# Criando-um-SO
+# Criando-um-mini-SO
 Passo a passo da criação de um Sistema Operacional.
 O SO foi feito seguindo o passo a passo do canal [KiddieOS Tutorial](https://www.youtube.com/watch?v=Jws7BHrts6g&list=PLsoiO2Be-2z8BfsSkspJfDiuKeC9-LSca&index=2) !!!
 
